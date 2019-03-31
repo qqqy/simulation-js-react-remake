@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+}
+
+.navbar {
+    background: #424249;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1em;
+    font-size: 2em;
+}
+
+.logoHolder {
+    display: flex;
+}
+
+.logoImg {
+    padding-right: 1em;
+}
+
+.budgetTally {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoText {    
+    align-items: center;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;;
+    padding: 2.5em;
+}
+
+.addBill {
+    display:flex;
+    flex-direction: column;
+    margin: 1em;
+    background: #54D2E5;
+    align-items: center;
+    padding: 1em;
+    width: 28vw;
+    border-radius: 5px;
+}
+
+.expensesList {
+    list-style: none;
+}
+
+.expenses {
+    background: #EFE8E1;
+    padding: 1em;
+    width: 28vw;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 0;
+}
+
+input {
+    width: 50%;
+    height: 50%;
+    margin: .5em;
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    margin-bottom: .5em;
+    color: white;
+    background: #424249;
+    font-weight: bold;
+}
+
+
+/* font-family: 'Righteous', cursive; */
+/* font-family: 'Roboto', sans-serif; */
